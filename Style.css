@@ -445,6 +445,7 @@ html {
 
 form {
     margin-top: 70px;
+    position: relative;
 }
 
 #container7 input[type='email'] {
@@ -468,24 +469,26 @@ form {
     border: none;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    float: right;
-    margin-top: -30px;
-    margin-right: 307px;
+    position: absolute;
+    top: 0px;
+    left: 896px;
     cursor: pointer;
 }
 
 /* container7 End */
 
 /* footer Start */
-footer{
+footer {
     background-color: black;
     color: white;
 }
-#footerh1{
+
+#footerh1 {
     margin: 0;
     font-size: 30px;
     font-style: italic;
 }
+
 /* footer End */
 
 @media only screen and (min-width: 320px) and (max-width:600px) {
@@ -507,7 +510,8 @@ footer{
         font-style: normal;
         color: white;
         margin: 0;
-        padding: 30px 20px;
+        padding: 30px 10px;
+        text-align: center;
     }
 
     #bannerpara {
@@ -516,12 +520,15 @@ footer{
         font-weight: 400;
         font-style: normal;
         color: white;
-        padding: 10px 20px;
+        padding: 10px 10px;
         margin: 0;
+        text-align: center;
     }
 
     #button1 {
         text-align: center;
+        margin: 0;
+        padding: 30px 0px;
     }
 
     .btn1 {
@@ -620,7 +627,8 @@ footer{
         font-style: normal;
         color: white;
         font-size: 60px;
-        padding: 10px 20px;
+        padding: 10px 10px;
+        text-align: center;
     }
 
     #container2 #container2para {
@@ -629,7 +637,8 @@ footer{
         font-weight: 400;
         font-style: normal;
         color: white;
-        padding: 0px 20px;
+        padding: 0px 10px;
+        text-align: center;
     }
 
     #button2 {
@@ -668,8 +677,9 @@ footer{
         font-style: normal;
         color: #f14c4c;
         font-size: 60px;
-        padding: 10px 20px;
+        padding: 10px 10px;
         text-shadow: 2px 2px black;
+        text-align: center;
     }
 
     #container3 #container3para {
@@ -679,7 +689,8 @@ footer{
         font-style: normal;
         color: #f14c4c;
         text-shadow: 2px 2px black;
-        padding: 0px 20px;
+        padding: 0px 10px;
+        text-align: center;
     }
 
     #button3 {
@@ -931,7 +942,7 @@ footer{
 
     #container7 input[type='email'] {
         height: 30px;
-        width: 250px;
+        width: 50%;
         display: block;
         margin: auto;
         border-radius: 50px;
@@ -943,30 +954,30 @@ footer{
 
     #container7 input[type='button'] {
         height: 30px;
-        width: 100px;
+        width: 30%;
         color: white;
         background-color: #f14c4c;
         border: none;
-        cursor: pointer;
-        display: block;
-        margin: 10px auto;
+        border-radius: 20px;
         position: relative;
-        right: 20px;
-        border-radius: 50px;
+        top: 2px;
+        left: 200px;
+        cursor: pointer;
         text-align: center;
     }
 
     /* container7 End */
-    
     /* footer Start */
-footer{
-    background-color: black;
-    color: white;
-}
-#footerh1{
-    margin: 0;
-    font-size: 20px;
-    font-style: italic;
-}
-/* footer End */
+    footer {
+        background-color: black;
+        color: white;
+    }
+
+    #footerh1 {
+        margin: 0;
+        font-size: 20px;
+        font-style: italic;
+    }
+
+    /* footer End */
 }
