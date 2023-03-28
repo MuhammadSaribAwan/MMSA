@@ -476,6 +476,18 @@ form {
 
 /* container7 End */
 
+/* footer Start */
+footer{
+    background-color: black;
+    color: white;
+}
+#footerh1{
+    margin: 0;
+    font-size: 30px;
+    font-style: italic;
+}
+/* footer End */
+
 @media only screen and (min-width: 320px) and (max-width:600px) {
 
     /* Banner Start */
@@ -945,4 +957,16 @@ form {
     }
 
     /* container7 End */
+    
+    /* footer Start */
+footer{
+    background-color: black;
+    color: white;
+}
+#footerh1{
+    margin: 0;
+    font-size: 20px;
+    font-style: italic;
+}
+/* footer End */
 }
